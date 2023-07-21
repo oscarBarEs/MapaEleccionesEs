@@ -238,6 +238,7 @@ function res(ds){
                 input.id = partido;
                 input.value = resultados.votos[partido];
                 input.addEventListener("change",newEleccion);
+                input.classList.add("form-control");
                 var label = document.createElement("label");
                 label.appendChild(document.createTextNode(partido));
                 label.appendChild(input);
