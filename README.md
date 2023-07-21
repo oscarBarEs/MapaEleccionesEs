@@ -17,6 +17,7 @@ function Cargar(url, capa)
     
 }
 ```
+
 Donde la url sera la pagina con los datos, en este caso `23j.html` y la capa la id del div donde deseas cargar la nueva pagina.
 
 ## Datos Cis
