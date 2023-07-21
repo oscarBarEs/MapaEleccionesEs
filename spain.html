@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./cod.js"></script>
+    <style>
+      body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+    #chartdiv {
+    width: 100%;
+    height: 500px;
+    }  
+    </style>
+    <link rel="stylesheet" id="classic-theme-styles-css" href="https://www.amcharts.com/wp-includes/css/classic-themes.min.css?ver=6.2.2" type="text/css" media="all">
+
+</head>
+<body>
+    <script src="//cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="//cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="//cdn.amcharts.com/lib/5/geodata/spainProvinces2High.js"></script>
+    <script src="//cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <div class="container">
+      <div class="row">
+        <h1>Elecciones 23J </h1>
+      </div>
+      
+    <div class="demo-theme-dark row">
+      <div style="border: solid 2px black;" class="col-md-8 demo-block rounded padding demo-background margin-bottom-big" >
+        <div id="chartdiv"></div>
+      </div>
+      <div id="esca" class="row">
+
+      </div>
+    </div>
+
+
+<script>
+  let datosJSON;
+  var numeroEntradas=0;
+  var colors;
+  async function fetchJSON(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+}
+
+// Luego puedes llamar a la función fetchJSON de forma síncrona
+(async () => {
+  try {
+    const jsonData = await fetchJSON('FIN2_CIS_DATOSBRUTOS.json');
+    
+    datosJSON = Object.values(jsonData);
+    // Aquí puedes acceder a los datos del objeto JSON
+    
+    numeroEntradas = Object.keys(datosJSON).length;
+
+    
+    cargaMapa();
+    //Mayor(1);
+    // Hacer algo con los datos JSON obtenidos
+  } catch (error) {
+    // Manejar el error de alguna manera
+  }
+})();
+
+function cargaMapa(){
+  // Colors
+  am5.ready(function() {
+     var colors = {
+  PP: am5.color(0x244999),
+  PSOE: am5.color(0xd22532),
+  PNV: am5.color(0x18a13d),
+  N: am5.color(0x999999)
+}
+
+  for(var i = 0; i < datosJSON.length; i++) {
+      datosJSON[i].polygonSettings = {
+        fill: colors[datosJSON[i].win]
+      }
+      console.log(datosJSON[i].win);
+    }
+
+  var root = am5.Root.new("chartdiv"); 
+
+// Set themes
+root.setThemes([
+  am5themes_Animated.new(root)
+]);
+
+var chart = root.container.children.push(
+  am5map.MapChart.new(root, {
+    projection: am5map.geoMercator()
+  })
+);
+
+// Create polygon series
+var polygonSeries = chart.series.push(
+  am5map.MapPolygonSeries.new(root, {
+    geoJSON: am5geodata_spainProvinces2High
+  })
+);
+
+polygonSeries.mapPolygons.template.setAll({
+  tooltipText: "{name}",
+  templateField: "polygonSettings",
+  interactive: true,
+});
+polygonSeries.mapPolygons.template.events.on("click", function (event) {
+  var province = event.target.dataItem.dataContext;
+  console.log("Province clicked:", province.name);
+  console.log("Province clicked:", province.id);
+  
+
+  buscarData(province.name);
+  Escanos(province.name);
+  Cargar("./23j.html", "esca");
+  // Add your custom logic here for the province click event
+
+  
+}
+
+);
+
+polygonSeries.mapPolygons.template.events.off("click", function (event) {
+  var province = event.target.dataItem.dataContext;
+  
+  switch(province.name){
+    case "Cantabria":
+        console.log("cerramos: ", province.name);
+        break;
+
+  }
+
+  // Add your custom logic here for the province click event
+}
+
+);
+
+polygonSeries.mapPolygons.template.states.create("hover", {
+  fill: am5.color(0x677935)
+});
+
+polygonSeries.data.setAll(datosJSON);
+console.log(polygonSeries.data);
+// Legend
+var legend = chart.children.push(am5.Legend.new(root, {
+  nameField: "name",
+  fillField: "color",
+  strokeField: "color",
+  useDefaultMarker: true,
+  centerX: am5.p100,
+  maxWidth: 100,
+  x: am5.p100,
+  centerY: am5.p100,
+  y: am5.p100,
+  dx: -20,
+  dy: -20,
+  background: am5.RoundedRectangle.new(root, {
+    fill: am5.color(0xffffff),
+    fillOpacity: 0.3
+  })
+}));
+
+legend.data.setAll([{
+  name: "PP",
+  color: colors.PP
+}, {
+  name: "PSOE",
+  color: colors.PSOE
+}, {
+  name: "EAJ-PNV",
+  color: colors.PNV
+}, {
+  name: "Neutral",
+  color: colors.N
+}]);
+});
+}
+/*
+fetch('CIS_DATOSBRUTOS.json')
+  .then(response => response.json())
+  .then(data => {
+    datosJSON = Object.values(data);
+    // Aquí puedes acceder a los datos del objeto JSON
+    console.log(datosJSON);
+    numeroEntradas = Object.keys(datosJSON).length;
+
+    console.log("Número de entradas:", numeroEntradas);
+  })
+  .catch(error => {
+    console.error('Error al leer el archivo JSON:', error);
+  });
+*/
+/**
+ * https://cdn.amcharts.com/lib/5/geodata/spainProvincesLow.js
+ * spainProvincesLow
+ * ---------------------------------------
+ * This demo was created using amCharts 5.
+ *
+ * For more information visit:
+ * https://www.amcharts.com/
+ *
+ * Documentation is available at:
+ * https://www.amcharts.com/docs/v5/
+ * ---------------------------------------
+ */
+
+// Create root and chart
+
+
+
+
+  
+function buscarData(cod){
+  for(let x=0;x<numeroEntradas; x++){
+    var datoAct=datosJSON[x];
+    
+    if(datoAct.provincia==cod){
+      setDataPro(datoAct);
+      
+    }
+  }
+}
+function Mayor(pro){
+  var ma=0;
+  var pa=null;
+  console.log("provincia : "+datosJSON[pro].provincia);
+  for (var partido in datosJSON[pro].votos){
+    //console.log(partido+":"+datosJSON[pro].votos[partido]);
+    //console.log("compara : " + datosJSON[pro].votos[partido] + " con "+ ma)
+    if (datosJSON[pro].votos[partido] > ma)
+    {
+      console.log(datosJSON[pro].votos[partido]+" > "+ma);
+      pa=partido.toString();
+      
+      ma=datosJSON[pro].votos[partido];
+
+    }
+  }
+  console.log("Partido mas votado: "+pa);
+  console.log("==============");
+return pa;
+}
+
+
+
+
+ // end am5.ready()
+</script>
+<script>
+
+function invokeScript(divid)
+{
+	var scriptObj = divid.getElementsByTagName("SCRIPT");
+	var len = scriptObj.length;
+
+	for(var i=0; i<len; i++)
+	{
+		var scriptText = scriptObj[i].text;
+		var scriptFile = scriptObj[i].src
+		var scriptTag = document.createElement("SCRIPT");
+		
+		if ((scriptFile != null) && (scriptFile != "")){
+			scriptTag.src = scriptFile;
+		}
+		scriptTag.text = scriptText;
+		if (!document.getElementsByTagName("HEAD")[0]) {
+			document.createElement("HEAD").appendChild(scriptTag)
+		}
+		else {
+			document.getElementsByTagName("HEAD")[0].appendChild(scriptTag);
+		}
+	}
+}
+                 
+function nuevaConexion()
+{
+	var xmlhttp=false;
+
+	try {
+		xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+	}
+	catch (e)
+	{
+		try {
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		} 
+		catch (E)
+		{ 
+			xmlhttp = false;
+		}
+	}
+
+	if (!xmlhttp && typeof XMLHttpRequest!='undefined')
+	{ 
+		xmlhttp = new XMLHttpRequest();
+	}
+	return xmlhttp; 
+}
+
+function Cargar(url, capa)
+{
+	var contenido = document.getElementById(capa);
+	var conexion = nuevaConexion();
+
+	conexion.open("GET", url,true);
+	conexion.onreadystatechange=function()
+	{ 
+		if((conexion.readyState == 4) && (conexion.status == 200))
+		{
+			contenido.innerHTML = conexion.responseText;
+			invokeScript(document.getElementById(capa));
+		}
+	} 
+	conexion.send(null);
+} 
+
+
+</script>
+</body>
+</html>

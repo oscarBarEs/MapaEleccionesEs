@@ -1,0 +1,911 @@
+{
+  "Almería": {
+    "provincia": ["Almería"],
+    "votos": {
+      "PP": [34.1667],
+      "PSOE": [21.6667],
+      "VOX": [15.8333],
+      "Sumar": [6.4583],
+      "En blanco": [1.4583],
+      "Podemos": [0.625],
+      "IU": [0.625],
+      "Partido Libertario": [0.2083],
+      "PACMA": [0.4167],
+      "Otro partido": [0.625],
+      "Falange Española de las JONS": [0.2083],
+      "Ciudadanos": [0.2083],
+      "Más País": [0.2083],
+      "Escaños en Blanco": [0.2083]
+    }
+  },
+  "Cádiz": {
+    "provincia": ["Cádiz"],
+    "votos": {
+      "PP": [33.1633],
+      "PSOE": [23.4694],
+      "VOX": [8.9286],
+      "Sumar": [10.9694],
+      "Adelante": [0.6378],
+      "En blanco": [1.6582],
+      "Podemos": [0.6378],
+      "Otro partido": [0.1276],
+      "IU": [1.0204],
+      "Andalucía Por Sí": [0.1276],
+      "Ciudadanos": [0.1276],
+      "PACMA": [0.3827],
+      "Escaños en Blanco": [0.2551],
+      "Partido Feminista de España": [0.1276],
+      "Unidas Podemos": [0.2551],
+      "Más País": [0.1276]
+    }
+  },
+  "Córdoba": {
+    "provincia": ["Córdoba"],
+    "votos": {
+      "PP": [33.6331],
+      "PSOE": [20.8633],
+      "Sumar": [12.2302],
+      "PACMA": [0.1799],
+      "VOX": [11.1511],
+      "En blanco": [1.4388],
+      "IU": [1.259],
+      "Ciudadanos": [0.1799],
+      "Otros partidos de derecha": [0.1799],
+      "Más País": [0.3597],
+      "Unidas Podemos": [0.5396],
+      "Podemos": [0.3597],
+      "Otro partido": [0.1799]
+    }
+  },
+  "Granada": {
+    "provincia": ["Granada"],
+    "votos": {
+      "PP": [30.8495],
+      "Sumar": [11.1773],
+      "IU": [0.5961],
+      "VOX": [11.4754],
+      "PSOE": [24.2921],
+      "Otro partido": [0.2981],
+      "PACMA": [0.2981],
+      "En blanco": [1.3413],
+      "Podemos": [1.0432],
+      "Otros partidos de derecha": [0.149],
+      "Falange Española de las JONS": [0.149],
+      "Unidas Podemos": [0.2981],
+      "Otros partidos de izquierda": [0.2981],
+      "Adelante": [0.149],
+      "Más Madrid": [0.149],
+      "Más País": [0.149],
+      "Partido Feminista de España": [0.149]
+    }
+  },
+  "Huelva": {
+    "provincia": ["Huelva"],
+    "votos": {
+      "En blanco": [1.5625],
+      "PSOE": [25.2232],
+      "PP": [31.25],
+      "Sumar": [10.9375],
+      "VOX": [9.5982],
+      "IU": [0.8929],
+      "Podemos": [0.8929],
+      "Otro partido": [0.2232],
+      "Más País": [0.2232],
+      "Por Huelva": [0.4464]
+    }
+  },
+  "Jaén": {
+    "provincia": ["Jaén"],
+    "votos": {
+      "PSOE": [22.1172],
+      "PP": [35.5388],
+      "VOX": [10.397],
+      "Sumar": [6.4272],
+      "Otros partidos de derecha": [0.189],
+      "Andalucía Por Sí": [0.189],
+      "Podemos": [0.9452],
+      "En blanco": [1.7013],
+      "Unidas Podemos": [0.189],
+      "Jaén Merece Más": [3.4026],
+      "IU": [0.7561],
+      "Falange Española de las JONS": [0.189],
+      "Adelante": [0.189]
+    }
+  },
+  "Málaga": {
+    "provincia": ["Málaga"],
+    "votos": {
+      "PSOE": [20.5234],
+      "PP": [34.1598],
+      "En blanco": [1.1019],
+      "Sumar": [12.1212],
+      "VOX": [8.9532],
+      "IU": [1.2397],
+      "Otros partidos de izquierda": [0.1377],
+      "PACMA": [0.2755],
+      "Unidas Podemos": [0.1377],
+      "Adelante": [0.2755],
+      "Podemos": [0.6887],
+      "Más País": [0.1377],
+      "EH Bildu": [0.1377],
+      "Otro partido": [0.1377],
+      "Ciudadanos": [0.1377],
+      "ERC": [0.1377]
+    }
+  },
+  "Sevilla": {
+    "provincia": ["Sevilla"],
+    "votos": {
+      "PSOE": [21.5328],
+      "PP": [31.2652],
+      "VOX": [10.8273],
+      "Partido Feminista de España": [0.1217],
+      "Sumar": [11.6788],
+      "PACMA": [0.365],
+      "En blanco": [2.0681],
+      "Podemos": [1.0949],
+      "Unidas Podemos": [0.1217],
+      "IU": [0.9732],
+      "Adelante": [0.1217]
+    }
+  },
+  "Huesca": {
+    "provincia": ["Huesca"],
+    "votos": {
+      "PP": [27.3481],
+      "PSOE": [26.2431],
+      "Existe": [2.2099],
+      "Sumar": [11.8785],
+      "VOX": [9.6685],
+      "En blanco": [1.6575],
+      "IU": [0.5525],
+      "Otro partido": [0.2762],
+      "PACMA": [0.5525],
+      "Podemos": [0.8287],
+      "CHA": [0.5525],
+      "Escaños en Blanco": [0.2762]
+    }
+  },
+  "Teruel": {
+    "provincia": ["Teruel"],
+    "votos": {
+      "VOX": [12.5],
+      "PP": [23.7179],
+      "PSOE": [22.4359],
+      "Existe": [13.7821],
+      "Sumar": [8.3333],
+      "IU": [0.9615],
+      "Falange Española de las JONS": [0.3205],
+      "PAR": [0.641],
+      "En blanco": [0.3205],
+      "UPN": [0.3205],
+      "JxCat": [0.3205],
+      "CHA": [0.3205]
+    }
+  },
+  "Zaragoza": {
+    "provincia": ["Zaragoza"],
+    "votos": {
+      "PSOE": [27.4443],
+      "PP": [28.3019],
+      "Sumar": [11.4923],
+      "Verdes Equo": [0.1715],
+      "España Vaciada": [0.3431],
+      "VOX": [8.5763],
+      "En blanco": [1.8868],
+      "Otro partido": [0.3431],
+      "IU": [0.8576],
+      "Existe": [0.8576],
+      "PAR": [0.3431],
+      "Podemos": [0.5146],
+      "PACMA": [0.3431]
+    }
+  },
+  "Asturias": {
+    "provincia": ["Asturias"],
+    "votos": {
+      "PP": [24.1883],
+      "Sumar": [13.1494],
+      "Podemos": [1.1364],
+      "PSOE": [24.513],
+      "VOX": [11.3636],
+      "IU": [1.6234],
+      "Unidas Podemos": [0.1623],
+      "FAC": [0.974],
+      "En blanco": [1.1364],
+      "Otro partido": [0.1623],
+      "Más País": [0.487],
+      "Partido Feminista de España": [0.1623],
+      "Escaños en Blanco": [0.1623]
+    }
+  },
+  "Balears (Illes)": {
+    "provincia": ["Illes Balears"],
+    "votos": {
+      "PP": [25.3635],
+      "PSOE": [24.2326],
+      "Sumar": [14.2165],
+      "Más País": [0.4847],
+      "VOX": [10.3393],
+      "ERC": [0.1616],
+      "JxCat": [0.1616],
+      "En blanco": [1.1309],
+      "PI (Proposta per les Illes)": [0.3231],
+      "Podemos": [2.4233],
+      "IU": [0.6462],
+      "Otro partido": [0.1616],
+      "Unidas Podemos": [0.1616],
+      "MÉS (PSM-Entesa)": [0.1616],
+      "Ciudadanos": [0.1616],
+      "PACMA": [0.1616]
+    }
+  },
+  "Palmas (Las)": {
+    "provincia": ["Las Palmas"],
+    "votos": {
+      "PP": [21.4789],
+      "PSOE": [30.9859],
+      "VOX": [8.4507],
+      "Sumar": [7.9225],
+      "Nueva Canarias": [2.4648],
+      "CC-PNC": [6.5141],
+      "Podemos": [1.2324],
+      "En blanco": [0.7042],
+      "IU": [0.5282],
+      "Ciudadanos": [0.1761],
+      "Otros partidos de izquierda": [0.1761],
+      "PACMA": [0.3521],
+      "Partido Libertario": [0.1761],
+      "Escaños en Blanco": [0.3521],
+      "PCPE": [0.1761]
+    }
+  },
+  "Santa Cruz de Tenerife": {
+    "provincia": ["Santa Cruz de Tenerife"],
+    "votos": {
+      "VOX": [8],
+      "Otro partido": [0.5714],
+      "PP": [24.7619],
+      "PSOE": [28.1905],
+      "Podemos": [0.9524],
+      "Sumar": [8.1905],
+      "Los Verdes-Grupo Verde": [0.1905],
+      "En blanco": [0.5714],
+      "CC-PNC": [5.3333],
+      "Nueva Canarias": [0.381],
+      "PACMA": [0.5714],
+      "IU": [0.1905]
+    }
+  },
+  "Cantabria": {
+    "provincia": ["Cantabria"],
+    "votos": {
+      "Sumar": [8.1395],
+      "PP": [29.0698],
+      "PSOE": [24.6512],
+      "VOX": [9.5349],
+      "Unidas Podemos": [0.4651],
+      "PRC": [1.6279],
+      "IU": [1.1628],
+      "Ciudadanos": [0.2326],
+      "Más País": [0.4651],
+      "Otro partido": [0.2326],
+      "Podemos": [1.6279],
+      "Por un Mundo más Justo (M+J)": [0.2326],
+      "PACMA": [0.2326],
+      "En blanco": [0.2326]
+    }
+  },
+  "Albacete": {
+    "provincia": ["Albacete"],
+    "votos": {
+      "En blanco": [1.9737],
+      "PSOE": [27.8509],
+      "PP": [32.4561],
+      "VOX": [10.9649],
+      "Unidas Podemos": [0.2193],
+      "IU": [0.8772],
+      "Sumar": [8.9912],
+      "Otro partido": [0.2193],
+      "Más País": [0.2193]
+    }
+  },
+  "Ciudad Real": {
+    "provincia": ["Ciudad Real"],
+    "votos": {
+      "Sumar": [7.045],
+      "PP": [30.137],
+      "VOX": [15.4599],
+      "PSOE": [27.9843],
+      "Otros partidos de derecha": [0.1957],
+      "En blanco": [0.3914],
+      "Más País": [0.1957],
+      "Podemos": [0.5871],
+      "IU": [0.3914],
+      "Otro partido": [0.1957]
+    }
+  },
+  "Cuenca": {
+    "provincia": ["Cuenca"],
+    "votos": {
+      "PSOE": [28.7324],
+      "VOX": [12.6761],
+      "PP": [32.9577],
+      "En blanco": [1.4085],
+      "Sumar": [7.3239],
+      "Existe": [0.2817],
+      "Otro partido": [0.2817],
+      "PACMA": [0.8451],
+      "Falange Española de las JONS": [0.2817]
+    }
+  },
+  "Guadalajara": {
+    "provincia": ["Guadalajara"],
+    "votos": {
+      "PP": [29.2804],
+      "Sumar": [8.933],
+      "VOX": [11.4144],
+      "PSOE": [28.7841],
+      "En blanco": [1.4888],
+      "PACMA": [0.4963],
+      "Otro partido": [0.2481],
+      "Ciudadanos": [0.2481],
+      "Unidas Podemos": [0.2481],
+      "Podemos": [0.2481]
+    }
+  },
+  "Toledo": {
+    "provincia": ["Toledo"],
+    "votos": {
+      "VOX": [14.2857],
+      "PSOE": [27.9121],
+      "PP": [30.7692],
+      "Sumar": [7.4725],
+      "Podemos": [0.6593],
+      "Más País": [0.4396],
+      "PACMA": [0.2198],
+      "IU": [0.8791],
+      "Ciudadanos": [0.4396],
+      "Unidas Podemos": [0.4396],
+      "España Vaciada": [0.2198],
+      "En blanco": [0.4396]
+    }
+  },
+  "Ávila": {
+    "provincia": ["Ávila"],
+    "votos": {
+      "PP": [27.0655],
+      "PSOE": [26.2108],
+      "Sumar": [7.9772],
+      "VOX": [11.9658],
+      "En blanco": [1.7094],
+      "Podemos": [0.8547],
+      "IU": [1.1396],
+      "Por Ávila": [2.849]
+    }
+  },
+  "Burgos": {
+    "provincia": ["Burgos"],
+    "votos": {
+      "PP": [25.3363],
+      "Sumar": [9.8655],
+      "PSOE": [27.8027],
+      "IU": [0.2242],
+      "VOX": [8.9686],
+      "En blanco": [1.3453],
+      "Partido Feminista de España": [0.2242],
+      "Podemos": [0.6726],
+      "Otro partido": [0.2242],
+      "Vía Burgalesa": [0.2242],
+      "Otros partidos de izquierda": [0.2242],
+      "PACMA": [0.2242]
+    }
+  },
+  "León": {
+    "provincia": ["León"],
+    "votos": {
+      "PSOE": [27.5862],
+      "Sumar": [7.9741],
+      "PP": [24.7845],
+      "VOX": [12.5],
+      "UPL": [7.1121],
+      "En blanco": [1.2931],
+      "IU": [0.6466],
+      "PACMA": [0.2155],
+      "Otros partidos de izquierda": [0.2155],
+      "Ciudadanos": [0.2155],
+      "Más País": [0.431]
+    }
+  },
+  "Palencia": {
+    "provincia": ["Palencia"],
+    "votos": {
+      "PP": [34.7826],
+      "PSOE": [26.6667],
+      "IU": [0.8696],
+      "Sumar": [6.9565],
+      "En blanco": [2.6087],
+      "VOX": [7.5362],
+      "Más País": [0.8696],
+      "España Vaciada": [0.2899],
+      "Podemos": [0.5797],
+      "Otro partido": [1.4493],
+      "Escaños en Blanco": [0.2899],
+      "EH Bildu": [0.2899]
+    }
+  },
+  "Salamanca": {
+    "provincia": ["Salamanca"],
+    "votos": {
+      "Sumar": [7.6087],
+      "PSOE": [29.3478],
+      "PP": [31.25],
+      "VOX": [10.0543],
+      "En blanco": [1.3587],
+      "UPL": [0.5435],
+      "IU": [0.2717],
+      "Más País": [0.2717],
+      "Otros partidos de derecha": [0.2717],
+      "Otro partido": [0.5435]
+    }
+  },
+  "Segovia": {
+    "provincia": ["Segovia"],
+    "votos": {
+      "EH Bildu": [0.304],
+      "PP": [28.5714],
+      "PSOE": [26.4438],
+      "VOX": [9.7264],
+      "Sumar": [9.1185],
+      "Unidas Podemos": [0.304],
+      "IU": [0.9119],
+      "Más País": [0.6079],
+      "Podemos": [0.9119],
+      "Otro partido": [0.9119],
+      "En blanco": [1.2158],
+      "Otros partidos de izquierda": [0.304]
+    }
+  },
+  "Soria": {
+    "provincia": ["Soria"],
+    "votos": {
+      "VOX": [5.7762],
+      "Soria Ya": [13.3574],
+      "PP": [24.5487],
+      "PSOE": [32.13],
+      "Sumar": [4.6931],
+      "Otro partido": [1.083],
+      "PACMA": [0.361],
+      "EH Bildu": [0.361],
+      "En blanco": [1.083],
+      "Podemos": [0.361]
+    }
+  },
+  "Valladolid": {
+    "provincia": ["Valladolid"],
+    "votos": {
+      "PP": [28.3613],
+      "VOX": [8.6134],
+      "PACMA": [0.4202],
+      "PSOE": [27.9412],
+      "En blanco": [0.8403],
+      "Sumar": [9.0336],
+      "Podemos": [0.8403],
+      "IU": [1.0504],
+      "Más País": [0.2101],
+      "Valladolid Toma la palabra": [0.2101],
+      "EH Bildu": [0.2101],
+      "Compromís": [0.2101]
+    }
+  },
+  "Zamora": {
+    "provincia": ["Zamora"],
+    "votos": {
+      "PP": [27.4924],
+      "VOX": [10.574],
+      "PSOE": [24.7734],
+      "Sumar": [8.7613],
+      "En blanco": [1.8127],
+      "IU": [1.5106],
+      "Recortes Cero": [0.3021],
+      "Otro partido": [2.4169],
+      "Más País": [0.9063],
+      "Otros partidos de derecha": [0.3021],
+      "Podemos": [0.3021],
+      "UPL": [0.6042],
+      "PREPAL": [0.3021]
+    }
+  },
+  "Barcelona": {
+    "provincia": ["Barcelona"],
+    "votos": {
+      "Unidas Podemos": [0.1489],
+      "PP": [10.9181],
+      "JxCat": [6.0546],
+      "CUP": [2.9777],
+      "VOX": [5.4591],
+      "Sumar": [11.8114],
+      "Otro partido": [0.3474],
+      "ERC": [7.8908],
+      "Podemos": [1.6873],
+      "PSOE": [25.8065],
+      "PACMA": [0.4963],
+      "En blanco": [1.3896],
+      "Más País": [0.1985],
+      "Otros partidos de izquierda": [0.2481],
+      "PdeCat": [0.2978],
+      "En Comú Podem": [0.397],
+      "CC-PNC": [0.0496],
+      "En Común-Unidas Podemos": [0.0496],
+      "IU": [0.397],
+      "Partido Feminista de España": [0.0496],
+      "Democracia Nacional": [0.0496]
+    }
+  },
+  "Girona": {
+    "provincia": ["Girona"],
+    "votos": {
+      "PP": [7.6046],
+      "JxCat": [9.6958],
+      "PSOE": [21.8631],
+      "CUP": [5.5133],
+      "ERC": [8.9354],
+      "VOX": [5.3232],
+      "Sumar": [6.2738],
+      "En Comú Podem": [0.9506],
+      "Podemos": [1.1407],
+      "PdeCat": [0.5703],
+      "En blanco": [1.5209],
+      "IU": [0.1901],
+      "PACMA": [0.7605],
+      "Más País": [0.1901],
+      "Otro partido": [0.7605]
+    }
+  },
+  "Lleida": {
+    "provincia": ["Lleida"],
+    "votos": {
+      "JxCat": [7.2864],
+      "PSOE": [22.8643],
+      "ERC": [10.0503],
+      "Otros partidos de izquierda": [0.5025],
+      "PACMA": [0.5025],
+      "PdeCat": [1.005],
+      "CUP": [4.0201],
+      "PP": [12.8141],
+      "Sumar": [4.5226],
+      "En blanco": [2.0101],
+      "VOX": [5.2764],
+      "Podemos": [1.005],
+      "En Comú Podem": [0.2513],
+      "Unidas Podemos": [0.2513],
+      "IU": [0.2513]
+    }
+  },
+  "Tarragona": {
+    "provincia": ["Tarragona"],
+    "votos": {
+      "Otros partidos de izquierda": [0.4535],
+      "PP": [11.3379],
+      "PACMA": [0.6803],
+      "JxCat": [5.6689],
+      "PSOE": [27.6644],
+      "VOX": [7.9365],
+      "ERC": [10.6576],
+      "Podemos": [0.6803],
+      "Otro partido": [0.4535],
+      "En Comú Podem": [0.4535],
+      "En blanco": [2.0408],
+      "Sumar": [4.5351],
+      "PdeCat": [0.2268],
+      "IU": [0.2268],
+      "Ciudadanos": [0.2268],
+      "CUP": [0.6803]
+    }
+  },
+  "Alicante/Alacant": {
+    "provincia": ["Alicante"],
+    "votos": {
+      "VOX": [13.2821],
+      "PP": [26.5642],
+      "PSOE": [25.3568],
+      "IU": [0.2195],
+      "Sumar": [10.7574],
+      "Otros partidos de izquierda": [0.1098],
+      "En blanco": [0.7684],
+      "Más País": [0.2195],
+      "Compromís": [1.8661],
+      "Partido Libertario": [0.1098],
+      "PACMA": [0.3293],
+      "Podemos": [0.6586],
+      "Otro partido": [0.3293],
+      "Otros partidos de derecha": [0.1098],
+      "En Comú Podem": [0.1098],
+      "PCPE": [0.1098],
+      "Los Verdes-Grupo Verde": [0.1098],
+      "Ciudadanos": [0.1098]
+    }
+  },
+  "Castellón/Castelló": {
+    "provincia": ["Castellón"],
+    "votos": {
+      "VOX": [9.9788],
+      "Sumar": [11.465],
+      "En blanco": [0.8493],
+      "PP": [25.9023],
+      "PSOE": [27.6008],
+      "Compromís": [2.7601],
+      "PACMA": [0.6369],
+      "Podemos": [0.6369],
+      "IU": [0.2123]
+    }
+  },
+  "Valencia/València": {
+    "provincia": ["Valencia"],
+    "votos": {
+      "PSOE": [22.3658],
+      "PP": [24.6521],
+      "Compromís": [4.3738],
+      "VOX": [10.835],
+      "Sumar": [14.5129],
+      "Podemos": [1.3917],
+      "En blanco": [0.6958],
+      "PACMA": [0.6958],
+      "Ciudadanos": [0.1988],
+      "IU": [0.5964],
+      "Otro partido": [0.5964],
+      "Los Verdes-Grupo Verde": [0.0994],
+      "Más País": [0.0994],
+      "Partido Libertario": [0.0994],
+      "PCPE": [0.0994],
+      "Unidas Podemos": [0.0994],
+      "Otros partidos de izquierda": [0.1988]
+    }
+  },
+  "Badajoz": {
+    "provincia": ["Badajoz"],
+    "votos": {
+      "Podemos": [0.3752],
+      "PP": [32.2702],
+      "PSOE": [28.5178],
+      "Sumar": [6.9418],
+      "VOX": [8.4428],
+      "En blanco": [1.5009],
+      "IU": [0.5629],
+      "Otro partido": [0.7505],
+      "Unidas Podemos": [0.1876],
+      "Otros partidos de izquierda": [0.1876],
+      "Por un Mundo más Justo (M+J)": [0.1876]
+    }
+  },
+  "Cáceres": {
+    "provincia": ["Cáceres"],
+    "votos": {
+      "PSOE": [26.652],
+      "VOX": [11.8943],
+      "Sumar": [8.1498],
+      "PP": [29.5154],
+      "Podemos": [0.8811],
+      "Extremadura Unida": [0.2203],
+      "Otro partido": [1.3216],
+      "PACMA": [0.4405],
+      "IU": [0.2203],
+      "En blanco": [0.8811],
+      "Más País": [0.2203],
+      "Otros partidos de izquierda": [0.2203]
+    }
+  },
+  "Coruña (A)": {
+    "provincia": ["A Coruña"],
+    "votos": {
+      "Sumar": [8.8161],
+      "PSOE": [23.1738],
+      "PP": [27.33],
+      "BNG": [12.9723],
+      "VOX": [5.9194],
+      "En blanco": [1.2594],
+      "IU": [0.5038],
+      "Otro partido": [0.3778],
+      "En Común-Unidas Podemos": [0.1259],
+      "Podemos": [0.7557],
+      "Más País": [0.2519],
+      "Otros partidos de izquierda": [0.2519],
+      "Unidas Podemos": [0.2519]
+    }
+  },
+  "Lugo": {
+    "provincia": ["Lugo"],
+    "votos": {
+      "PP": [29.0323],
+      "BNG": [13.6476],
+      "PSOE": [29.0323],
+      "Podemos": [0.4963],
+      "Sumar": [5.4591],
+      "VOX": [3.4739],
+      "En blanco": [0.9926],
+      "IU": [0.4963],
+      "JxCat": [0.2481],
+      "PACMA": [0.2481]
+    }
+  },
+  "Ourense": {
+    "provincia": ["Ourense"],
+    "votos": {
+      "PP": [35.9173],
+      "BNG": [11.8863],
+      "Sumar": [4.9096],
+      "VOX": [4.6512],
+      "PSOE": [25.8398],
+      "En blanco": [0.2584]
+    }
+  },
+  "Pontevedra": {
+    "provincia": ["Pontevedra"],
+    "votos": {
+      "Sumar": [11.3903],
+      "BNG": [12.8978],
+      "PP": [23.6181],
+      "PSOE": [26.6332],
+      "VOX": [3.1826],
+      "Podemos": [0.8375],
+      "Unidas Podemos": [0.5025],
+      "En blanco": [1.34],
+      "Otro partido": [0.8375],
+      "IU": [0.1675],
+      "PACMA": [0.1675]
+    }
+  },
+  "Madrid": {
+    "provincia": ["Madrid"],
+    "votos": {
+      "PP": [31.3491],
+      "Sumar": [12.2149],
+      "VOX": [9.9343],
+      "PSOE": [22.8063],
+      "IU": [0.3479],
+      "En blanco": [1.3529],
+      "Más País": [1.7395],
+      "Partido Feminista de España": [0.116],
+      "Ciudadanos": [0.1546],
+      "Unidas Podemos": [0.1933],
+      "Otro partido": [0.3092],
+      "Falange Española de las JONS": [0.0387],
+      "Podemos": [0.8891],
+      "Otros partidos de izquierda": [0.0773],
+      "PACMA": [0.2319],
+      "Verdes Equo": [0.0387],
+      "Escaños en Blanco": [0.0387],
+      "Partido Libertario": [0.1546],
+      "Por un Mundo más Justo (M+J)": [0.0387],
+      "Más Madrid": [0.0773]
+    }
+  },
+  "Murcia": {
+    "provincia": ["Murcia"],
+    "votos": {
+      "PP": [31.7557],
+      "En blanco": [1.8321],
+      "PSOE": [20],
+      "VOX": [15.7252],
+      "Sumar": [7.4809],
+      "Podemos": [0.6107],
+      "PACMA": [0.6107],
+      "Más País": [0.1527],
+      "PdeCat": [0.1527],
+      "Ciudadanos": [0.1527],
+      "IU": [0.7634],
+      "Otro partido": [0.3053],
+      "Falange Española de las JONS": [0.1527]
+    }
+  },
+  "Navarra": {
+    "provincia": ["Navarra"],
+    "votos": {
+      "EH Bildu": [13.8952],
+      "PP": [16.8565],
+      "PSOE": [19.8178],
+      "Sumar": [11.8451],
+      "Otro partido": [0.9112],
+      "UPN": [6.6059],
+      "En blanco": [0.9112],
+      "VOX": [4.328],
+      "Geroa Bai": [1.8223],
+      "ERC": [0.2278],
+      "EAJ-PNV": [0.6834],
+      "Podemos": [0.9112],
+      "Por un Mundo más Justo (M+J)": [0.6834],
+      "PACMA": [0.2278],
+      "Verdes Equo": [0.2278],
+      "IU": [0.4556]
+    }
+  },
+  "Araba/Álava": {
+    "provincia": ["Araba/Álava"],
+    "votos": {
+      "PSOE": [21.0811],
+      "EH Bildu": [10.5405],
+      "EAJ-PNV": [10.5405],
+      "Sumar": [12.1622],
+      "En blanco": [1.3514],
+      "PP": [12.4324],
+      "VOX": [3.7838],
+      "Podemos": [0.8108],
+      "Escaños en Blanco": [0.2703],
+      "IU": [0.5405],
+      "Otro partido": [0.2703],
+      "Más País": [0.2703]
+    }
+  },
+  "Gipuzkoa": {
+    "provincia": ["Gipuzkoa"],
+    "votos": {
+      "EH Bildu": [22.0907],
+      "Sumar": [10.8481],
+      "EAJ-PNV": [15.5819],
+      "En blanco": [1.1834],
+      "PSOE": [14.7929],
+      "PP": [6.1144],
+      "Podemos": [1.3807],
+      "Otro partido": [0.5917],
+      "VOX": [1.5779],
+      "IU": [0.1972],
+      "PACMA": [0.1972],
+      "Escaños en Blanco": [0.1972]
+    }
+  },
+  "Bizkaia": {
+    "provincia": ["Bizkaia"],
+    "votos": {
+      "EAJ-PNV": [18.0937],
+      "Sumar": [10.6624],
+      "PSOE": [19.7092],
+      "EH Bildu": [13.5703],
+      "PP": [8.8853],
+      "IU": [0.4847],
+      "Otros partidos de izquierda": [0.3231],
+      "VOX": [0.9693],
+      "En blanco": [0.8078],
+      "Otro partido": [0.1616],
+      "PACMA": [0.1616],
+      "Podemos": [0.6462]
+    }
+  },
+  "Rioja (La)": {
+    "provincia": ["La Rioja"],
+    "votos": {
+      "PP": [36.1478],
+      "Sumar": [6.8602],
+      "VOX": [5.277],
+      "PSOE": [25.5937],
+      "Podemos": [1.3193],
+      "En blanco": [2.9024],
+      "PACMA": [0.5277],
+      "Unidas Podemos": [0.2639],
+      "Otro partido": [0.7916],
+      "IU": [0.5277],
+      "Partido Riojano": [0.2639],
+      "Ciudadanos": [0.2639],
+      "EH Bildu": [0.2639],
+      "Escaños en Blanco": [0.2639]
+    }
+  },
+  "Ceuta": {
+    "provincia": ["Ceuta"],
+    "votos": {
+      "PP": [40.3846],
+      "VOX": [17.3077],
+      "PSOE": [17.3077],
+      "Sumar": [5.7692],
+      "En blanco": [1.9231]
+    }
+  },
+  "Melilla": {
+    "provincia": ["Melilla"],
+    "votos": {
+      "PP": [35.5932],
+      "PSOE": [25.4237],
+      "VOX": [16.9492],
+      "Sumar": [1.6949]
+    }
+  }
+}
