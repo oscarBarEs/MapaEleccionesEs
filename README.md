@@ -14,7 +14,7 @@ Ademas, no hara falta cambiar de pagina para mostrar la segunda atraves de la fu
 ```
 function Cargar(url, capa)
 {
-    
+    ...
 }
 ```
 
