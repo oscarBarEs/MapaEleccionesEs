@@ -10,14 +10,17 @@ Este codigo incluye 2 paginas, una donde se muestra el mapa de las provincias es
   <img src="resources/tabla.png?raw=true" width="60%">
 </p>
 Ademas, no hara falta cambiar de pagina para mostrar la segunda atraves de la funcion Cargar del codigo.
+
 ```
 function Cargar(url, capa)
 {
-    ....
+    
 }
 ```
 Donde la url sera la pagina con los datos, en este caso `23j.html` y la capa la id del div donde deseas cargar la nueva pagina.
+
 ## Datos Cis
+
 Para tener un JSON con datos para cada provincia se ha decidido extraer los datos brutos del CIS. Para ello se ha creado un programa en R. Ademas para simplificar los datos se han estraido algunas respuestas que no aportan a la mejor compresion de los datos.
 
 ```
