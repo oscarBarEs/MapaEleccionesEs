@@ -64,7 +64,7 @@
 // Luego puedes llamar a la función fetchJSON de forma síncrona
 (async () => {
   try {
-    const jsonData = await fetchJSON('FIN2_CIS_DATOSBRUTOS.json');
+    const jsonData = await fetchJSON('./JSONs/FIN2_CIS_DATOSBRUTOS.json');
     
     datosJSON = Object.values(jsonData);
     // Aquí puedes acceder a los datos del objeto JSON

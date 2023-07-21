@@ -31,6 +31,36 @@ Para tener un JSON con datos para cada provincia se ha decidido extraer los dato
   partidos <- unique(datos_provincia$`INTENCIONG.Intención.de.voto.en.las.elecciones.generales.de.2023`)
   partidos <- setdiff(partidos, partidos_excluir)
 ```
+## JSON
+
+Los objetos del Json contienen el atributo name, una lista con el porcentaje de votos a cada partido y en el caso de `FIN3_CIS_DATOSBRUTOS.JSON` tambien existe el atributo win para marcar el ganador de las elecciones.
+
+```
+  "Melilla": {
+    "name": "Melilla",
+    "votos": {
+      "PP": 44.6809,
+      "PSOE": 31.9149,
+      "VOX": 21.2766,
+      "Sumar": 2.1277
+    },
+    "win": "PP"
+  }
+```
+
+Ademas se han modificado el nombre que otorgan el cis a las provincias para que coincida con los nombres de las provincias segun amcharts.
+
+## HTML
+
+Para mejorar el visionado se ha utilizado la libreria [Bootstrap](https://getbootstrap.com/). De esta manera se colocan en columnas de la misma fila la tabla del arco para su correcta visualizacion desde un dispositivo movil.
+
+<p float="middle">
+  <img src="resources/movil.png?raw=true" width="40%">
+</p>
+
+
+
+
 
 
 
